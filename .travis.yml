@@ -1,0 +1,11 @@
+language: csharp
+solution: FizzBuzzNetCore.sln
+install:
+  - nuget restore FizzBuzzNetCore.sln
+  - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
+  - sudo apt-get install -y openjdk-8-jdk
+script:
+  - xbuild /p:Configuration=Release FizzBuzzNetCore.sln
+  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./FizzBuzzTest/bin/Release/FizzBuzz_Test.dll
+  - chmod +x run-scanner.sh
+  - ./run-scanner.sh
