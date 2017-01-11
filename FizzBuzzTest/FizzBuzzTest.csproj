@@ -6,7 +6,7 @@
     <ProjectGuid>{A00440B9-8BA5-4787-8F62-6B0C9E09155F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>FizzBuzzTest</RootNamespace>
-    <AssemblyName>TestSOLID_Test</AssemblyName>
+    <AssemblyName>FizzBuzz_Test</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">

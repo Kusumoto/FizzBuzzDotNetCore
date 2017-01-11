@@ -6,7 +6,7 @@
     <ProjectGuid>{4C29F943-AF24-47DF-AC2B-28725A453BA3}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>FizzBuzz</RootNamespace>
-    <AssemblyName>TestSOLID</AssemblyName>
+    <AssemblyName>FizzBuzz</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
