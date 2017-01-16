@@ -9,6 +9,7 @@ cat << EOF > sonar-project.properties
   sonar.projectName=${SONAR_PROJECT_NAME}
   sonar.projectVersion=${SONAR_PROJECT_VERSION}
   sonar.sources=.
+  sonar.cs.nunit.reportsPaths=./
 EOF
 
 ~/sonar-scanner-2.8/bin/sonar-scanner
